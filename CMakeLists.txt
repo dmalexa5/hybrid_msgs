@@ -12,6 +12,7 @@ set(msg_files
   "msg/HybridPoint.msg"
   "msg/HybridTrajectory.msg"
   "msg/HybridTrajectoryPoint.msg"
+  "msg/HybridControllerState.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
